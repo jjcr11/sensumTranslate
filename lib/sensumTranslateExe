@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+import sensumDirtyComments as dc
+
+import sys
+
+affectus = dc.SensumDirtyComments()
+affectus.main()
