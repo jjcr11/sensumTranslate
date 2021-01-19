@@ -1,7 +1,4 @@
-#!/usr/bin/python3
-import sensumDirtyComments as dc
+import sensumSpanishPosts as sp
 
-import sys
-
-affectus = dc.SensumDirtyComments()
-affectus.main()
+sensum = sp.SensumSpanishPosts()
+sensum.main()
