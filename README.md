@@ -1,7 +1,7 @@
 
 # Sensum Translate
 
-Last Update Mondey 28th, December 2020
+Last Update Mondey 18th, December 2020
 
 ## Index
 1. [Installation](#installation)
@@ -27,12 +27,9 @@ Use the package manager [pip3](https://pip.pypa.io/en/stable/) to install the pr
 python3
 pip3
 
-pip3 install openpyxl
-pip3 install xlrd 
+pip3 install google-cloud-translate==2.0.1
 pip3 install pandas
-pip3 install np
-pip3 install xlsxwriter
-pip3 install xlwt
+pip3 install openpyxl
 ```
 [INDEX](#index)
 
@@ -41,7 +38,7 @@ pip3 install xlwt
 [INDEX](#index)
 
 ## License
-All the present code in this repository is own by Saul Rubio and Francisco Luna, in order have a copy of it, please contact us.
+All the present code in this repository is own by Saul Rubio, Francisco Luna and Juan Carbajal, in order have a copy of it, please contact us.
 
 Maintain by evolve team
 

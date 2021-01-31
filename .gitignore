@@ -7,13 +7,10 @@ lib/__pycache__
 !data/clean_comments/.gitkeep
 !output/.gitkeep
 
-data/clean_comments/*
-data/dirty_comments/*
-data/format_comments/*
-data/dirty_posts/*
-data/format_posts/*
+data/spanish_comments/*
+data/spanish_posts/*
 output/*
 
 env
 
-Traductor-7f83f030afee.json
+*.json

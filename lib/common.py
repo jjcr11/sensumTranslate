@@ -2,69 +2,13 @@
 
 import os
 
-def printSensumDirtyComments():
+def printSensumSpanishComments():
     printLine()
     print('========================================================')
-    print('=========== SENSUM DIRTY COMMENTS MODULE =============')
+    print('=========== SENSUM SPANISH POSTS MODULE =============')
     print('========================================================')
     printLine()
-
-def printSensumDirtyPosts():
-    printLine()
-    print('========================================================')
-    print('=========== SENSUM DIRTY POSTS MODULE =============')
-    print('========================================================')
-    printLine()
-
-def printSensumCleanComments():
-    printLine()
-    print('========================================================')
-    print('=========== SENSUM CLEAN COMMENTS MODULE =============')
-    print('========================================================')
-    printLine()
-
-def printSensumCleanPosts():
-    printLine()
-    print('========================================================')
-    print('=========== SENSUM CLEAN POSTS MODULE ================')
-    print('========================================================')
-    printLine()
-
-def printSensumJoinCleanFiles():
-    printLine()
-    print('========================================================')
-    print('============ SENSUM JOIN CLEAN FILES =================')
-    print('========================================================')
-    printLine()
-
-def printRenamingDfColumns():
-    printLine()
-    print('========================================================')
-    print('================ RENAMING DF COLUMNS ===================')
-    print('========================================================')
-    printLine()
-
-def printCleanningComments():
-    printLine()
-    print('========================================================')
-    print('================= CLEANING COMMENTS ====================')
-    print('========================================================')
-
-def printSavingFile():
-    printLine()
-    print('========================================================')
-    print('=================== SAVING FILE =======================')
-    print('========================================================')
-    printLine()
-
-def printPreviewingData():
-    printLine()
-    print('========================================================')
-    print('================== PREVIWEING DATA =====================')
-    print('========================================================')
-    printLine()
-
-    
+        
 def countFiles(path):
     path, dirs, files = next(os.walk(f'{path}'))
     file_count = len(files)
